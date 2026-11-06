@@ -1,0 +1,480 @@
+2026-11-01T21:05:01.518202+05:30 10 CRON[19068]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-01T21:05:01.528031+05:30 10 CRON[19068]: pam_unix(cron:session): session closed for user root
+2026-11-01T21:05:45.590476+05:30 10 xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-01T21:05:45.594156+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-01T21:07:19.544802+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/CodeAlpha_BasicNetworkSniffer ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2026-11-01T21:07:19.546436+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-01T21:07:19.690479+05:30 10 sshd[20340]: Server listening on 0.0.0.0 port 22.
+2026-11-01T21:07:19.693374+05:30 10 sshd[20340]: Server listening on :: port 22.
+2026-11-01T21:07:19.694852+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-01T21:07:26.468470+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/CodeAlpha_BasicNetworkSniffer ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-11-01T21:07:26.469693+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-01T21:07:26.522918+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-01T21:08:17.864771+05:30 10 sshd-session[20587]: Accepted password for gunjan from 10.42.168.30 port 54409 ssh2
+2026-11-01T21:08:17.884975+05:30 10 sshd-session[20587]: pam_unix(sshd:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-01T21:08:17.897580+05:30 10 systemd-logind[535]: New session '10' of user 'gunjan' with class 'user' and type 'tty'.
+2026-11-01T21:08:18.054010+05:30 10 sshd-session[20821]: Received disconnect from 10.42.168.30 port 54409:11: disconnected by user
+2026-11-01T21:08:18.056135+05:30 10 sshd-session[20821]: Disconnected from user gunjan 10.42.168.30 port 54409
+2026-11-01T21:08:18.056762+05:30 10 sshd-session[20587]: pam_unix(sshd:session): session closed for user gunjan
+2026-11-01T21:08:18.065400+05:30 10 systemd-logind[535]: Session 10 logged out. Waiting for processes to exit.
+2026-11-01T21:08:18.070223+05:30 10 systemd-logind[535]: Removed session 10.
+2026-11-01T21:08:32.117931+05:30 10 sshd-session[20904]: Accepted password for gunjan from 10.42.168.30 port 54451 ssh2
+2026-11-01T21:08:32.129294+05:30 10 sshd-session[20904]: pam_unix(sshd:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-01T21:08:32.139983+05:30 10 systemd-logind[535]: New session '11' of user 'gunjan' with class 'user' and type 'tty'.
+2026-11-01T21:08:32.219110+05:30 10 sshd-session[20944]: Received disconnect from 10.42.168.30 port 54451:11: disconnected by user
+2026-11-01T21:08:32.219708+05:30 10 sshd-session[20944]: Disconnected from user gunjan 10.42.168.30 port 54451
+2026-11-01T21:08:32.220402+05:30 10 sshd-session[20904]: pam_unix(sshd:session): session closed for user gunjan
+2026-11-01T21:08:32.232063+05:30 10 systemd-logind[535]: Session 11 logged out. Waiting for processes to exit.
+2026-11-01T21:08:32.236584+05:30 10 systemd-logind[535]: Removed session 11.
+2026-11-01T21:09:01.557685+05:30 10 CRON[21188]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-01T21:09:01.558604+05:30 10 CRON[21188]: pam_unix(cron:session): session closed for user root
+2026-11-01T21:15:01.598150+05:30 10 CRON[24111]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-01T21:15:01.607226+05:30 10 CRON[24111]: pam_unix(cron:session): session closed for user root
+2026-11-01T21:17:01.628526+05:30 10 CRON[25077]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-01T21:17:01.634406+05:30 10 CRON[25077]: pam_unix(cron:session): session closed for user root
+2026-11-01T21:25:01.682988+05:30 10 CRON[28911]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-01T21:25:01.691382+05:30 10 CRON[28911]: pam_unix(cron:session): session closed for user root
+2026-11-01T21:35:01.753156+05:30 10 CRON[33701]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-01T21:35:01.762210+05:30 10 CRON[33701]: pam_unix(cron:session): session closed for user root
+2026-11-01T21:39:01.795322+05:30 10 CRON[35622]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-01T21:39:01.810183+05:30 10 CRON[35622]: pam_unix(cron:session): session closed for user root
+2026-11-01T21:45:01.854630+05:30 10 CRON[38540]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-01T21:45:01.866250+05:30 10 CRON[38540]: pam_unix(cron:session): session closed for user root
+2026-11-02T11:07:25.847353+05:30 10 systemd-logind[538]: New seat seat0.
+2026-11-02T11:07:25.890408+05:30 10 systemd-logind[538]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-11-02T11:07:25.890520+05:30 10 systemd-logind[538]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-11-02T11:07:25.919773+05:30 10 systemd-logind[538]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-11-02T11:07:32.001864+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=117) by (uid=0)
+2026-11-02T11:07:32.135822+05:30 10 systemd-logind[538]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-11-02T11:07:32.352025+05:30 10 (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=117) by lightdm(uid=0)
+2026-11-02T11:07:32.355994+05:30 10 systemd-logind[538]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-11-02T11:07:33.399454+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=117) by (uid=0)
+2026-11-02T11:08:08.218488+05:30 10 lightdm: gkr-pam: unable to locate daemon control file
+2026-11-02T11:08:08.218659+05:30 10 lightdm: gkr-pam: stashed password to try later in open session
+2026-11-02T11:08:08.340592+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-02T11:08:08.340830+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-02T11:08:08.352277+05:30 10 lightdm: pam_unix(lightdm:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-02T11:08:08.396100+05:30 10 systemd-logind[538]: New session '2' of user 'gunjan' with class 'user' and type 'x11'.
+2026-11-02T11:08:08.651233+05:30 10 (systemd): pam_unix(systemd-user:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-02T11:08:08.654928+05:30 10 systemd-logind[538]: New session '3' of user 'gunjan' with class 'manager' and type 'unspecified'.
+2026-11-02T11:08:08.804294+05:30 10 systemd-logind[538]: Removed session c1.
+2026-11-02T11:08:09.468731+05:30 10 lightdm: gkr-pam: unlocked login keyring
+2026-11-02T11:08:20.760290+05:30 10 systemd-logind[538]: Removed session 1.
+2026-11-02T11:09:01.371607+05:30 10 CRON[2713]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T11:09:01.380840+05:30 10 CRON[2713]: pam_unix(cron:session): session closed for user root
+2026-11-02T11:11:26.613663+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/find /etc/snort -maxdepth 2 -type f
+2026-11-02T11:11:26.615035+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:11:26.620850+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:11:34.486323+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/find /etc/snort -maxdepth 2 -type d
+2026-11-02T11:11:34.487528+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:11:34.502893+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:12:28.044759+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/sbin/snort -T -c /etc/snort/snort.lua
+2026-11-02T11:12:28.049241+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:12:28.283670+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:15:01.434466+05:30 10 CRON[5872]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T11:15:01.851660+05:30 10 CRON[5872]: pam_unix(cron:session): session closed for user root
+2026-11-02T11:17:01.884084+05:30 10 CRON[6838]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T11:17:01.896178+05:30 10 CRON[6838]: pam_unix(cron:session): session closed for user root
+2026-11-02T11:18:48.943033+05:30 10 xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-02T11:18:48.944470+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-02T11:18:56.972341+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/grep -nE HOME_NET|RULE_PATH|ips|include /etc/snort/snort.lua
+2026-11-02T11:18:56.978056+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:18:56.988821+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:19:05.389620+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/cat /etc/snort/rules/local.rules
+2026-11-02T11:19:05.394717+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:19:05.401370+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:20:40.703341+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/cp /etc/snort/rules/local.rules /etc/snort/rules/local.rules.backup
+2026-11-02T11:20:40.706683+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:20:40.711020+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:21:12.810273+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/sed -n 18,35p;185,205p /etc/snort/snort.lua
+2026-11-02T11:21:12.813022+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:21:12.827727+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:21:18.667455+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/sbin/snort -c /etc/snort/snort.lua -i eth0 -A alert_fast
+2026-11-02T11:21:18.669104+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:22:03.247958+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:25:01.960708+05:30 10 CRON[11488]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T11:25:01.977412+05:30 10 CRON[11488]: pam_unix(cron:session): session closed for user root
+2026-11-02T11:26:24.565796+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/sbin/snort -T -c /etc/snort/snort.lua -R /etc/snort/rules/local.rules
+2026-11-02T11:26:24.572737+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:26:24.782819+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:27:01.151164+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/sbin/snort -c /etc/snort/snort.lua -R /etc/snort/rules/local.rules -i eth0 -A alert_fast
+2026-11-02T11:27:01.154466+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:27:24.811464+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:30:14.240140+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/sbin/snort -c /etc/snort/snort.lua -R /etc/snort/rules/local.rules -i eth0 -A alert_fast
+2026-11-02T11:30:14.247793+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:30:27.162675+05:30 10 sudo:   gunjan : TTY=pts/2 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/nmap -sS -p 1-100 10.42.168.71
+2026-11-02T11:30:27.164164+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:30:48.534081+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:31:44.108881+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:35:01.996330+05:30 10 CRON[18725]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T11:35:02.000828+05:30 10 CRON[18725]: pam_unix(cron:session): session closed for user root
+2026-11-02T11:35:08.739863+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/sbin/snort -c /etc/snort/snort.lua -R /etc/snort/rules/local.rules -i eth0 -A alert_fast
+2026-11-02T11:35:08.741881+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:35:22.491463+05:30 10 sudo:   gunjan : TTY=pts/2 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/nmap -sS -T4 --min-rate 100 -p 1-1000 10.42.168.71
+2026-11-02T11:35:22.499207+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:35:43.489570+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:35:51.879939+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:39:01.042874+05:30 10 CRON[20710]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T11:39:01.045943+05:30 10 CRON[20710]: pam_unix(cron:session): session closed for user root
+2026-11-02T11:45:01.101144+05:30 10 CRON[23604]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T11:45:01.106730+05:30 10 CRON[23604]: pam_unix(cron:session): session closed for user root
+2026-11-02T11:46:06.030695+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/cat /etc/snort/rules/local.rules
+2026-11-02T11:46:06.036985+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:46:06.037126+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:47:23.296617+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/sbin/snort -c /etc/snort/snort.lua -R /etc/snort/rules/local.rules -i eth0 -A alert_fast
+2026-11-02T11:47:23.303300+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:47:31.894608+05:30 10 sudo:   gunjan : TTY=pts/2 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/nmap -sS -T4 -p 1-100 10.42.168.154
+2026-11-02T11:47:31.898439+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T11:47:32.314120+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:47:50.248870+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T11:55:01.155158+05:30 10 CRON[29178]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T11:55:01.159083+05:30 10 CRON[29178]: pam_unix(cron:session): session closed for user root
+2026-11-02T12:05:01.194626+05:30 10 CRON[33982]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T12:05:01.199725+05:30 10 CRON[33982]: pam_unix(cron:session): session closed for user root
+2026-11-02T12:09:01.238292+05:30 10 CRON[35925]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T12:09:01.257911+05:30 10 CRON[35925]: pam_unix(cron:session): session closed for user root
+2026-11-02T12:15:01.307570+05:30 10 CRON[38846]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T12:15:01.316750+05:30 10 CRON[38846]: pam_unix(cron:session): session closed for user root
+2026-11-02T12:17:01.331276+05:30 10 CRON[39818]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T12:17:01.336426+05:30 10 CRON[39818]: pam_unix(cron:session): session closed for user root
+2026-11-02T12:25:01.375536+05:30 10 CRON[43660]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T12:25:01.380877+05:30 10 CRON[43660]: pam_unix(cron:session): session closed for user root
+2026-11-02T12:35:01.432079+05:30 10 CRON[48460]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T12:35:01.439944+05:30 10 CRON[48460]: pam_unix(cron:session): session closed for user root
+2026-11-02T12:39:01.472544+05:30 10 CRON[50379]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T12:39:01.502445+05:30 10 CRON[50379]: pam_unix(cron:session): session closed for user root
+2026-11-02T12:45:01.561972+05:30 10 CRON[53308]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T12:45:01.567005+05:30 10 CRON[53308]: pam_unix(cron:session): session closed for user root
+2026-11-02T12:55:01.633306+05:30 10 CRON[58108]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T12:55:01.646668+05:30 10 CRON[58108]: pam_unix(cron:session): session closed for user root
+2026-11-02T13:05:01.719330+05:30 10 CRON[62910]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T13:05:01.726947+05:30 10 CRON[62910]: pam_unix(cron:session): session closed for user root
+2026-11-02T13:09:01.780967+05:30 10 CRON[64840]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T13:09:01.792939+05:30 10 CRON[64840]: pam_unix(cron:session): session closed for user root
+2026-11-02T13:14:09.027753+05:30 10 xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-02T13:14:09.035157+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-02T13:15:01.831070+05:30 10 CRON[67979]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T13:15:01.840549+05:30 10 CRON[67979]: pam_unix(cron:session): session closed for user root
+2026-11-02T13:17:01.881963+05:30 10 CRON[68938]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T13:17:01.895485+05:30 10 CRON[68938]: pam_unix(cron:session): session closed for user root
+2026-11-02T13:20:40.011074+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer/Source_Code ; USER=root ; COMMAND=/usr/bin/python3 -c 'from scapy.all import get_if_list; print(get_if_list())'
+2026-11-02T13:20:40.019297+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:20:41.983616+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:22:35.365939+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer/Source_Code ; USER=root ; COMMAND=/usr/bin/python3 sniffer.py
+2026-11-02T13:22:35.370697+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:22:40.596272+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:23:36.653311+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer/Source_Code ; USER=root ; COMMAND=/usr/bin/python3 sniffer.py
+2026-11-02T13:23:36.654267+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:23:44.867151+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:25:01.943168+05:30 10 CRON[73105]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T13:25:01.947851+05:30 10 CRON[73105]: pam_unix(cron:session): session closed for user root
+2026-11-02T13:29:23.456838+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer/Source_Code ; USER=root ; COMMAND=/usr/bin/python3 sniffer.py
+2026-11-02T13:29:23.467647+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:29:36.889187+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:35:01.015145+05:30 10 CRON[78081]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T13:35:01.019314+05:30 10 CRON[78081]: pam_unix(cron:session): session closed for user root
+2026-11-02T13:35:41.054308+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer/Source_Code ; USER=root ; COMMAND=/usr/bin/python3 sniffer.py
+2026-11-02T13:35:41.063119+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:36:11.405826+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:39:01.044244+05:30 10 CRON[80338]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T13:39:01.055209+05:30 10 CRON[80338]: pam_unix(cron:session): session closed for user root
+2026-11-02T13:39:14.968919+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer/Source_Code ; USER=root ; COMMAND=/usr/bin/python3 sniffer.py
+2026-11-02T13:39:14.971838+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:40:12.893636+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:42:26.801757+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer/Source_Code ; USER=root ; COMMAND=/usr/bin/python3 sniffer.py
+2026-11-02T13:42:26.811903+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:42:48.354897+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:43:23.750050+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer/Source_Code ; USER=root ; COMMAND=/usr/bin/python3 sniffer.py
+2026-11-02T13:43:23.751320+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:43:34.927121+05:30 10 sudo:   gunjan : TTY=pts/1 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/nmap -sS -p 1-30 --reason 10.42.168.30
+2026-11-02T13:43:34.929359+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:43:36.863421+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:43:36.947621+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:44:03.137556+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer/Source_Code ; USER=root ; COMMAND=/usr/bin/python3 sniffer.py
+2026-11-02T13:44:03.139771+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:44:05.183478+05:30 10 sudo:   gunjan : TTY=pts/1 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/nmap -sS -p 1-30 --reason 10.42.168.30
+2026-11-02T13:44:05.186925+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-02T13:44:07.197784+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:44:25.229209+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-02T13:45:01.087218+05:30 10 CRON[83421]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T13:45:01.090432+05:30 10 CRON[83421]: pam_unix(cron:session): session closed for user root
+2026-11-02T13:55:01.158974+05:30 10 CRON[88232]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T13:55:01.274261+05:30 10 CRON[88232]: pam_unix(cron:session): session closed for user root
+2026-11-02T14:05:01.232053+05:30 10 CRON[93031]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T14:05:01.237305+05:30 10 CRON[93031]: pam_unix(cron:session): session closed for user root
+2026-11-02T14:09:01.281874+05:30 10 CRON[94963]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T14:09:01.290018+05:30 10 CRON[94963]: pam_unix(cron:session): session closed for user root
+2026-11-02T14:15:01.330812+05:30 10 CRON[97893]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T14:15:01.335263+05:30 10 CRON[97893]: pam_unix(cron:session): session closed for user root
+2026-11-02T14:17:00.724372+05:30 10 CRON[98905]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T14:17:00.737224+05:30 10 CRON[98905]: pam_unix(cron:session): session closed for user root
+2026-11-02T14:17:15.050455+05:30 10 xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-02T14:17:15.053203+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-02T14:23:41.902316+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): conversation failed
+2026-11-02T14:23:41.904765+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): auth could not identify password for [gunjan]
+2026-11-02T14:25:01.805743+05:30 10 CRON[103126]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T14:25:01.816804+05:30 10 CRON[103126]: pam_unix(cron:session): session closed for user root
+2026-11-02T14:35:01.907446+05:30 10 CRON[107924]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T14:35:01.912876+05:30 10 CRON[107924]: pam_unix(cron:session): session closed for user root
+2026-11-02T14:39:01.942320+05:30 10 CRON[109849]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T14:39:01.954450+05:30 10 CRON[109849]: pam_unix(cron:session): session closed for user root
+2026-11-02T14:45:02.001648+05:30 10 CRON[112772]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T14:45:02.008534+05:30 10 CRON[112772]: pam_unix(cron:session): session closed for user root
+2026-11-02T14:55:01.056161+05:30 10 CRON[117563]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T14:55:01.063211+05:30 10 CRON[117563]: pam_unix(cron:session): session closed for user root
+2026-11-02T15:05:01.107105+05:30 10 CRON[122362]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T15:05:01.113463+05:30 10 CRON[122362]: pam_unix(cron:session): session closed for user root
+2026-11-02T16:02:50.340998+05:30 10 systemd-logind[537]: New seat seat0.
+2026-11-02T16:02:50.341023+05:30 10 systemd-logind[537]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-11-02T16:02:50.341040+05:30 10 systemd-logind[537]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-11-02T16:02:50.341056+05:30 10 systemd-logind[537]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-11-02T16:02:55.977961+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=117) by (uid=0)
+2026-11-02T16:02:56.023367+05:30 10 systemd-logind[537]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-11-02T16:02:56.174609+05:30 10 (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=117) by lightdm(uid=0)
+2026-11-02T16:02:56.185104+05:30 10 systemd-logind[537]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-11-02T16:02:56.966149+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=117) by (uid=0)
+2026-11-02T16:03:45.146795+05:30 10 lightdm: gkr-pam: unable to locate daemon control file
+2026-11-02T16:03:45.150600+05:30 10 lightdm: gkr-pam: stashed password to try later in open session
+2026-11-02T16:03:45.304366+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-02T16:03:45.305112+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-02T16:03:45.320870+05:30 10 lightdm: pam_unix(lightdm:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-02T16:03:45.406879+05:30 10 systemd-logind[537]: New session '2' of user 'gunjan' with class 'user' and type 'x11'.
+2026-11-02T16:03:45.562161+05:30 10 (systemd): pam_unix(systemd-user:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-02T16:03:45.585267+05:30 10 systemd-logind[537]: New session '3' of user 'gunjan' with class 'manager' and type 'unspecified'.
+2026-11-02T16:03:45.747747+05:30 10 systemd-logind[537]: Removed session c1.
+2026-11-02T16:03:46.514637+05:30 10 lightdm: gkr-pam: unlocked login keyring
+2026-11-02T16:03:56.462654+05:30 10 (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-11-02T16:03:56.507066+05:30 10 systemd-logind[537]: Removed session 1.
+2026-11-02T16:05:01.201718+05:30 10 CRON[2719]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T16:05:01.209281+05:30 10 CRON[2719]: pam_unix(cron:session): session closed for user root
+2026-11-02T16:09:01.221929+05:30 10 CRON[4708]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T16:09:01.224799+05:30 10 CRON[4708]: pam_unix(cron:session): session closed for user root
+2026-11-02T16:15:01.244413+05:30 10 CRON[7402]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T16:15:01.284553+05:30 10 CRON[7402]: pam_unix(cron:session): session closed for user root
+2026-11-02T16:17:01.276723+05:30 10 CRON[8439]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T16:17:01.287749+05:30 10 CRON[8439]: pam_unix(cron:session): session closed for user root
+2026-11-02T16:25:01.317384+05:30 10 CRON[13396]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T16:25:01.327017+05:30 10 CRON[13396]: pam_unix(cron:session): session closed for user root
+2026-11-02T16:34:54.498618+05:30 10 xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-02T16:34:54.501158+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-02T16:35:01.354362+05:30 10 CRON[18836]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T16:35:01.368156+05:30 10 CRON[18836]: pam_unix(cron:session): session closed for user root
+2026-11-02T16:39:01.382143+05:30 10 CRON[21093]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T16:39:01.392184+05:30 10 CRON[21093]: pam_unix(cron:session): session closed for user root
+2026-11-02T16:45:01.417126+05:30 10 CRON[24320]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T16:45:01.429865+05:30 10 CRON[24320]: pam_unix(cron:session): session closed for user root
+2026-11-02T16:45:26.690612+05:30 10 unix_chkpwd[24684]: password check failed for user (gunjan)
+2026-11-02T16:45:26.692638+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): authentication failure; logname=gunjan uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=gunjan
+2026-11-02T16:45:56.377129+05:30 10 xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-02T16:45:56.384110+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-02T16:55:01.445310+05:30 10 CRON[30098]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T16:55:01.452526+05:30 10 CRON[30098]: pam_unix(cron:session): session closed for user root
+2026-11-02T17:03:45.389062+05:30 10 unix_chkpwd[34914]: password check failed for user (gunjan)
+2026-11-02T17:03:45.393263+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): authentication failure; logname=gunjan uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=gunjan
+2026-11-02T17:04:01.228351+05:30 10 xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-02T17:04:01.229245+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-02T17:05:01.469101+05:30 10 CRON[35610]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-02T17:05:01.474700+05:30 10 CRON[35610]: pam_unix(cron:session): session closed for user root
+2026-11-02T17:07:20.956489+05:30 10 systemd-logind[537]: The system will power off now!
+2026-11-02T17:07:20.979704+05:30 10 systemd-logind[537]: System is powering down.
+                                                                          2026-11-04T12:53:17.867346+05:30 10 systemd-logind[540]: New seat seat0.
+2026-11-04T12:53:17.867356+05:30 10 systemd-logind[540]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-11-04T12:53:17.867366+05:30 10 systemd-logind[540]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-11-04T12:53:17.867375+05:30 10 systemd-logind[540]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-11-04T12:53:26.953388+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=117) by (uid=0)
+2026-11-04T12:53:26.989776+05:30 10 systemd-logind[540]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-11-04T12:53:27.285631+05:30 10 (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=117) by lightdm(uid=0)
+2026-11-04T12:53:27.291422+05:30 10 systemd-logind[540]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-11-04T12:53:28.061237+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=117) by (uid=0)
+2026-11-04T12:54:01.567985+05:30 10 lightdm: gkr-pam: unable to locate daemon control file
+2026-11-04T12:54:01.568385+05:30 10 lightdm: gkr-pam: stashed password to try later in open session
+2026-11-04T12:54:02.202659+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-04T12:54:02.204737+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-04T12:54:02.214453+05:30 10 lightdm: pam_unix(lightdm:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-04T12:54:02.260472+05:30 10 systemd-logind[540]: New session '2' of user 'gunjan' with class 'user' and type 'x11'.
+2026-11-04T12:54:02.420121+05:30 10 systemd-logind[540]: Removed session c1.
+2026-11-04T12:54:02.441311+05:30 10 (systemd): pam_unix(systemd-user:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-04T12:54:02.448760+05:30 10 systemd-logind[540]: New session '3' of user 'gunjan' with class 'manager' and type 'unspecified'.
+2026-11-04T12:54:03.461307+05:30 10 lightdm: gkr-pam: unlocked login keyring
+2026-11-04T12:54:12.938324+05:30 10 systemd-logind[540]: Removed session 1.
+2026-11-04T12:54:12.939821+05:30 10 (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-11-04T12:55:01.159921+05:30 10 CRON[2654]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T12:55:01.384007+05:30 10 CRON[2654]: pam_unix(cron:session): session closed for user root
+2026-11-04T13:05:01.474035+05:30 10 CRON[7544]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T13:05:01.478789+05:30 10 CRON[7544]: pam_unix(cron:session): session closed for user root
+2026-11-04T13:09:01.524482+05:30 10 CRON[9505]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T13:09:01.527343+05:30 10 CRON[9505]: pam_unix(cron:session): session closed for user root
+2026-11-04T13:15:01.572140+05:30 10 CRON[12424]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T13:15:01.577088+05:30 10 CRON[12424]: pam_unix(cron:session): session closed for user root
+2026-11-04T13:17:01.588990+05:30 10 CRON[13382]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T13:17:01.593469+05:30 10 CRON[13382]: pam_unix(cron:session): session closed for user root
+2026-11-04T13:25:01.623418+05:30 10 CRON[17204]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T13:25:01.627477+05:30 10 CRON[17204]: pam_unix(cron:session): session closed for user root
+2026-11-04T13:35:01.230598+05:30 10 CRON[21636]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T13:35:01.238682+05:30 10 CRON[21636]: pam_unix(cron:session): session closed for user root
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         2026-11-06T23:35:35.810761+05:30 10 systemd-logind[530]: New seat seat0.
+2026-11-06T23:35:35.810771+05:30 10 systemd-logind[530]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-11-06T23:35:35.810795+05:30 10 systemd-logind[530]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-11-06T23:35:35.810804+05:30 10 systemd-logind[530]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-11-06T23:35:40.836198+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=117) by (uid=0)
+2026-11-06T23:35:40.884578+05:30 10 systemd-logind[530]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-11-06T23:35:40.987253+05:30 10 (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=117) by lightdm(uid=0)
+2026-11-06T23:35:40.990594+05:30 10 systemd-logind[530]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-11-06T23:35:41.676966+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=117) by (uid=0)
+2026-11-06T23:36:13.963316+05:30 10 lightdm: gkr-pam: unable to locate daemon control file
+2026-11-06T23:36:13.963593+05:30 10 lightdm: gkr-pam: stashed password to try later in open session
+2026-11-06T23:36:14.117319+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-06T23:36:14.117972+05:30 10 lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-06T23:36:14.139114+05:30 10 lightdm: pam_unix(lightdm:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-06T23:36:14.180937+05:30 10 systemd-logind[530]: New session '2' of user 'gunjan' with class 'user' and type 'x11'.
+2026-11-06T23:36:14.313423+05:30 10 (systemd): pam_unix(systemd-user:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-06T23:36:14.317207+05:30 10 systemd-logind[530]: New session '3' of user 'gunjan' with class 'manager' and type 'unspecified'.
+2026-11-06T23:36:15.220564+05:30 10 lightdm: gkr-pam: unlocked login keyring
+2026-11-06T23:36:15.343332+05:30 10 systemd-logind[530]: Removed session c1.
+2026-11-06T23:36:27.773380+05:30 10 systemd-logind[530]: Removed session 1.
+2026-11-06T23:36:57.122664+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/python3 Source_Code/sniffer.py
+2026-11-06T23:36:57.124270+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-06T23:36:57.162341+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-06T23:37:02.944261+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/python3 Source_Code/sniffer.py
+2026-11-06T23:37:02.945518+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-06T23:37:02.982863+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-06T23:39:01.793707+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer ; USER=root ; COMMAND=/usr/bin/python3 Source_Code/sniffer.py
+2026-11-06T23:39:01.797703+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-06T23:39:01.872204+05:30 10 CRON[3490]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-06T23:39:01.877371+05:30 10 CRON[3490]: pam_unix(cron:session): session closed for user root
+2026-11-06T23:39:29.266445+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-06T23:40:03.186009+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer ; USER=root ; COMMAND=/usr/bin/python3 Source_Code/sniffer.py
+2026-11-06T23:40:03.187363+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-06T23:40:09.863167+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-06T23:42:57.687080+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer ; USER=root ; COMMAND=/usr/bin/python3 Source_Code/sniffer.py
+2026-11-06T23:42:57.693859+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-06T23:43:27.587177+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-06T23:43:31.735451+05:30 10 sudo:   gunjan : TTY=pts/2 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/nmap -sS -p 1-30 --reason 10.42.168.30
+2026-11-06T23:43:31.736821+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-06T23:43:33.768966+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-06T23:43:43.543378+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer ; USER=root ; COMMAND=/usr/bin/python3 Source_Code/sniffer.py
+2026-11-06T23:43:43.545971+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-06T23:43:44.551976+05:30 10 sudo:   gunjan : TTY=pts/2 ; PWD=/home/gunjan ; USER=root ; COMMAND=/usr/bin/nmap -sS -p 1-30 --reason 10.42.168.30
+2026-11-06T23:43:44.552862+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-06T23:43:46.487799+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-06T23:44:21.513008+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-06T23:45:01.888071+05:30 10 CRON[6522]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-06T23:45:01.896625+05:30 10 CRON[6522]: pam_unix(cron:session): session closed for user root
+2026-11-06T23:55:01.910975+05:30 10 CRON[11349]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-06T23:55:01.915291+05:30 10 CRON[11349]: pam_unix(cron:session): session closed for user root
+2026-11-06T23:59:01.927766+05:30 10 CRON[13279]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-06T23:59:01.935450+05:30 10 CRON[13279]: pam_unix(cron:session): session closed for user root
+2026-11-07T00:05:01.947854+05:30 10 CRON[16173]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-07T00:05:01.954219+05:30 10 CRON[16173]: pam_unix(cron:session): session closed for user root
+2026-11-07T00:06:30.937182+05:30 10 xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-07T00:06:30.939626+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-07T00:06:47.487649+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-11-07T00:06:47.488750+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-07T00:06:47.531299+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-07T00:06:56.500027+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer ; USER=root ; COMMAND=/usr/bin/systemctl enable --now ssh
+2026-11-07T00:06:56.503484+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-07T00:06:57.558892+05:30 10 sshd[17390]: Server listening on 0.0.0.0 port 22.
+2026-11-07T00:06:57.559131+05:30 10 sshd[17390]: Server listening on :: port 22.
+2026-11-07T00:06:57.567870+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-07T00:07:00.888050+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_7_Network_Packet_Sniffer ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-11-07T00:07:00.888970+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-07T00:07:00.935743+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-07T00:09:01.967129+05:30 10 CRON[18447]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-07T00:09:01.970690+05:30 10 CRON[18447]: pam_unix(cron:session): session closed for user root
+2026-11-07T00:15:01.983477+05:30 10 CRON[21383]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-07T00:15:02.315692+05:30 10 CRON[21383]: pam_unix(cron:session): session closed for user root
+2026-11-07T00:15:21.174735+05:30 10 xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-07T00:15:21.177844+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-07T00:17:01.998389+05:30 10 CRON[22493]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-07T00:17:02.009242+05:30 10 CRON[22493]: pam_unix(cron:session): session closed for user root
+2026-11-07T00:20:39.349438+05:30 10 unix_chkpwd[24246]: password check failed for user (gunjan)
+2026-11-07T00:20:39.463418+05:30 10 sshd-session[23992]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.42.168.30  user=gunjan
+2026-11-07T00:20:40.779079+05:30 10 sshd-session[23992]: Failed password for gunjan from 10.42.168.30 port 53440 ssh2
+2026-11-07T00:21:17.433331+05:30 10 unix_chkpwd[24551]: password check failed for user (gunjan)
+2026-11-07T00:21:20.036055+05:30 10 sshd-session[23992]: Failed password for gunjan from 10.42.168.30 port 53440 ssh2
+2026-11-07T00:21:27.659886+05:30 10 sshd-session[23992]: Accepted password for gunjan from 10.42.168.30 port 53440 ssh2
+2026-11-07T00:21:27.673214+05:30 10 sshd-session[23992]: pam_unix(sshd:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-07T00:21:27.684360+05:30 10 systemd-logind[530]: New session '12' of user 'gunjan' with class 'user' and type 'tty'.
+2026-11-07T00:24:54.501886+05:30 10 sshd-session[23992]: syslogin_perform_logout: logout() returned an error
+2026-11-07T00:24:54.503537+05:30 10 sshd-session[24638]: Received disconnect from 10.42.168.30 port 53440:11: disconnected by user
+2026-11-07T00:24:54.508697+05:30 10 sshd-session[24638]: Disconnected from user gunjan 10.42.168.30 port 53440
+2026-11-07T00:24:54.515125+05:30 10 sshd-session[23992]: pam_unix(sshd:session): session closed for user gunjan
+2026-11-07T00:24:54.526108+05:30 10 systemd-logind[530]: Session 12 logged out. Waiting for processes to exit.
+2026-11-07T00:24:54.530344+05:30 10 systemd-logind[530]: Removed session 12.
+2026-11-07T00:25:01.023589+05:30 10 CRON[26378]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-07T00:25:01.026964+05:30 10 CRON[26378]: pam_unix(cron:session): session closed for user root
+2026-11-07T00:25:30.787723+05:30 10 sshd-session[26574]: Accepted password for gunjan from 10.42.168.30 port 53833 ssh2
+2026-11-07T00:25:30.797391+05:30 10 sshd-session[26574]: pam_unix(sshd:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-07T00:25:30.806777+05:30 10 systemd-logind[530]: New session '14' of user 'gunjan' with class 'user' and type 'tty'.
+2026-11-07T00:25:30.850026+05:30 10 sshd-session[26631]: Received disconnect from 10.42.168.30 port 53833:11: disconnected by user
+2026-11-07T00:25:30.850950+05:30 10 sshd-session[26631]: Disconnected from user gunjan 10.42.168.30 port 53833
+2026-11-07T00:25:30.851930+05:30 10 sshd-session[26574]: pam_unix(sshd:session): session closed for user gunjan
+2026-11-07T00:25:30.859452+05:30 10 systemd-logind[530]: Session 14 logged out. Waiting for processes to exit.
+2026-11-07T00:25:30.863381+05:30 10 systemd-logind[530]: Removed session 14.
+2026-11-07T00:26:18.356521+05:30 10 sshd-session[26972]: Accepted password for gunjan from 10.42.168.30 port 53888 ssh2
+2026-11-07T00:26:18.371269+05:30 10 sshd-session[26972]: pam_unix(sshd:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-07T00:26:18.382670+05:30 10 systemd-logind[530]: New session '15' of user 'gunjan' with class 'user' and type 'tty'.
+2026-11-07T00:27:09.055825+05:30 10 sshd-session[26972]: syslogin_perform_logout: logout() returned an error
+2026-11-07T00:27:09.058345+05:30 10 sshd-session[27020]: Received disconnect from 10.42.168.30 port 53888:11: disconnected by user
+2026-11-07T00:27:09.062771+05:30 10 sshd-session[27020]: Disconnected from user gunjan 10.42.168.30 port 53888
+2026-11-07T00:27:09.067932+05:30 10 sshd-session[26972]: pam_unix(sshd:session): session closed for user gunjan
+2026-11-07T00:27:09.075390+05:30 10 systemd-logind[530]: Session 15 logged out. Waiting for processes to exit.
+2026-11-07T00:27:09.079163+05:30 10 systemd-logind[530]: Removed session 15.
+2026-11-07T00:27:26.312163+05:30 10 unix_chkpwd[27603]: password check failed for user (gunjan)
+2026-11-07T00:27:26.314564+05:30 10 sshd-session[27528]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.42.168.30  user=gunjan
+2026-11-07T00:27:27.975567+05:30 10 sshd-session[27528]: Failed password for gunjan from 10.42.168.30 port 53972 ssh2
+2026-11-07T00:27:33.520538+05:30 10 sshd-session[27528]: Accepted password for gunjan from 10.42.168.30 port 53972 ssh2
+2026-11-07T00:27:33.533388+05:30 10 sshd-session[27528]: pam_unix(sshd:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-07T00:27:33.547820+05:30 10 systemd-logind[530]: New session '16' of user 'gunjan' with class 'user' and type 'tty'.
+2026-11-07T00:27:33.585346+05:30 10 sshd-session[27674]: Received disconnect from 10.42.168.30 port 53972:11: disconnected by user
+2026-11-07T00:27:33.587160+05:30 10 sshd-session[27674]: Disconnected from user gunjan 10.42.168.30 port 53972
+2026-11-07T00:27:33.588858+05:30 10 sshd-session[27528]: pam_unix(sshd:session): session closed for user gunjan
+2026-11-07T00:27:33.597706+05:30 10 systemd-logind[530]: Session 16 logged out. Waiting for processes to exit.
+2026-11-07T00:27:33.602588+05:30 10 systemd-logind[530]: Removed session 16.
+2026-11-07T00:28:41.819562+05:30 10 sshd-session[28184]: Accepted password for gunjan from 10.42.168.30 port 54066 ssh2
+2026-11-07T00:28:41.835010+05:30 10 sshd-session[28184]: pam_unix(sshd:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-07T00:28:41.847331+05:30 10 systemd-logind[530]: New session '17' of user 'gunjan' with class 'user' and type 'tty'.
+2026-11-07T00:28:41.887916+05:30 10 sshd-session[28232]: Received disconnect from 10.42.168.30 port 54066:11: disconnected by user
+2026-11-07T00:28:41.888427+05:30 10 sshd-session[28232]: Disconnected from user gunjan 10.42.168.30 port 54066
+2026-11-07T00:28:41.889053+05:30 10 sshd-session[28184]: pam_unix(sshd:session): session closed for user gunjan
+2026-11-07T00:28:41.900300+05:30 10 systemd-logind[530]: Session 17 logged out. Waiting for processes to exit.
+2026-11-07T00:28:41.904400+05:30 10 systemd-logind[530]: Removed session 17.
+2026-11-07T00:30:24.545911+05:30 10 sshd-session[29019]: Accepted password for gunjan from 10.42.168.30 port 54216 ssh2
+2026-11-07T00:30:24.556777+05:30 10 sshd-session[29019]: pam_unix(sshd:session): session opened for user gunjan(uid=1000) by gunjan(uid=0)
+2026-11-07T00:30:24.564675+05:30 10 systemd-logind[530]: New session '18' of user 'gunjan' with class 'user' and type 'tty'.
+2026-11-07T00:30:24.685177+05:30 10 sshd-session[29059]: Received disconnect from 10.42.168.30 port 54216:11: disconnected by user
+2026-11-07T00:30:24.686161+05:30 10 sshd-session[29059]: Disconnected from user gunjan 10.42.168.30 port 54216
+2026-11-07T00:30:24.686373+05:30 10 sshd-session[29019]: pam_unix(sshd:session): session closed for user gunjan
+2026-11-07T00:30:24.701017+05:30 10 systemd-logind[530]: Session 18 logged out. Waiting for processes to exit.
+2026-11-07T00:30:24.732780+05:30 10 systemd-logind[530]: Removed session 18.
+2026-11-07T00:35:01.048900+05:30 10 CRON[31280]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-07T00:35:01.058622+05:30 10 CRON[31280]: pam_unix(cron:session): session closed for user root
+2026-11-07T00:39:01.068512+05:30 10 CRON[33217]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-07T00:39:01.071404+05:30 10 CRON[33217]: pam_unix(cron:session): session closed for user root
+2026-11-07T00:39:56.551629+05:30 10 xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-07T00:39:56.553433+05:30 10 xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-07T00:42:30.361700+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_11_Log_File_Analyzer ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh --no-pager -n 10
+2026-11-07T00:42:30.583088+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-07T00:42:30.705308+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-07T00:43:41.574758+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_11_Log_File_Analyzer ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/auth.log
+2026-11-07T00:43:41.576177+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-07T00:43:41.852722+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-07T00:43:47.578062+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_11_Log_File_Analyzer ; USER=root ; COMMAND=/usr/bin/ls -lah /var/log/apache2/
+2026-11-07T00:43:47.579522+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-07T00:43:47.587020+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-07T00:43:52.027501+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_11_Log_File_Analyzer ; USER=root ; COMMAND=/usr/bin/grep -i 'Failed password' /var/log/auth.log
+2026-11-07T00:43:52.028840+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-07T00:43:52.108727+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-07T00:45:01.084418+05:30 10 CRON[36343]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-07T00:45:01.609001+05:30 10 CRON[36343]: pam_unix(cron:session): session closed for user root
+2026-11-07T00:46:11.580990+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_11_Log_File_Analyzer ; USER=root ; COMMAND=/usr/bin/grep -aic 'Failed password' /var/log/auth.log
+2026-11-07T00:46:11.582861+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-07T00:46:11.592352+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-07T00:46:15.803306+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_11_Log_File_Analyzer ; USER=root ; COMMAND=/usr/bin/grep -ai 'Failed password' /var/log/auth.log
+2026-11-07T00:46:15.807741+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-07T00:46:15.812068+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-07T00:46:19.881220+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_11_Log_File_Analyzer ; USER=root ; COMMAND=/usr/bin/grep -ai 'Accepted password' /var/log/auth.log
+2026-11-07T00:46:19.882376+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)
+2026-11-07T00:46:19.888860+05:30 10 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-07T00:49:29.602590+05:30 10 sudo:   gunjan : TTY=pts/0 ; PWD=/home/gunjan/Desktop/Elevate_Labs/Project_11_Log_File_Analyzer ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log Sample_Logs/auth.log
+2026-11-07T00:49:29.609758+05:30 10 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by gunjan(uid=1000)

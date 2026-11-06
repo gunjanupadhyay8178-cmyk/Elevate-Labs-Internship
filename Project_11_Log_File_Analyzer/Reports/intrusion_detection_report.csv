@@ -1,0 +1,2 @@
+source_ip,alert_type,event_count,severity
+127.0.0.1,Possible HTTP Path Enumeration,5,MEDIUM
